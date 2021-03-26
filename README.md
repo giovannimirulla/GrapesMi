@@ -3,7 +3,7 @@
 Servizio hosting per progetti software IoT che verranno compilati e distribuiti via OTA a tutti i dispositivi collegati dagli utenti
 
 - [Website](https://giovannimirulla.github.io/GrapesMi/mhw1.html)
-- [PowerPoint](https://github.com/giovannimirulla/GrapesMi/main/mhw1.pptx)
+- [PowerPoint](https://github.com/giovannimirulla/GrapesMi/blob/main/mhw1.pptx?raw=true)
 
 ## Header
 <div align="center"><img src="readmeImg/header.png"/></div>
