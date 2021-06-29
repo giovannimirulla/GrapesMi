@@ -1,18 +1,26 @@
-# Grapes Mi
-### Mini homework 1 - MHW1 - Web Programming - UNICT
-Servizio hosting per progetti software IoT che verranno compilati e distribuiti via OTA a tutti i dispositivi collegati dagli utenti
+<div align="center"> <img src="img/logo.png" width="100">
+<h1>Grapes Mi</h1></div>
 
-- [Website](https://giovannimirulla.github.io/GrapesMi/mhw1.html)
-- [PowerPoint](https://github.com/giovannimirulla/GrapesMi/blob/main/mhw1.pptx?raw=true)
 
-## Header
-<div align="center"><img src="readmeImg/header.png"/></div>
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white&style=flat" alt="HTML">
+<img src="https://img.shields.io/badge/CSS3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white&style=flat" alt="CSS">
+<img src="https://img.shields.io/badge/PHP%20-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white&style=flat" alt="PHP">
+<img src="https://img.shields.io/badge/Javascript%20-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=3c3c3c&style=flat" alt="Javascript">
+</p>
 
-## Project Section
-<div align="center"><img src="readmeImg/projectSection.png"/></div>
+## About Grapes Mi
 
-## Plans Section
-<div align="center"><img src="readmeImg/plansSection.png"/></div>
+Grapes Mi is a web application to manage the creation of operating systems for IoT devices and their distribution
 
-## Footer
-<div align="center"><img src="readmeImg/footer.png"/></div>
+## Profile
+<div align="center"><img src="readmeImg/profile.png"/></div>
+
+## Project
+<div align="center"><img src="readmeImg/project.png"/></div>
+
+## Search
+<div align="center"><img src="readmeImg/search.png"/></div>
+
+## Mobile
+<div align="center"><img src="readmeImg/mobile.gif"/></div>

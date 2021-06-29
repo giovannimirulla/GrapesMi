@@ -1,0 +1,1559 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#init {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    z-index: 1
+}
+
+#init h1 {
+    font-size: 5rem !important;
+    margin: 0;
+}
+
+#init p {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 5% 0
+}
+
+ul {
+    text-align: left;
+    padding: 0;
+}
+
+header .card {
+    margin: 5%;
+    padding: 0;
+    height: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+header .card h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 5%;
+}
+
+header .card .textBar {
+    width: 80%;
+}
+
+.textBar.error .icon {
+    background-color: red;
+}
+
+.textBar.bordered.error {
+    border: 5px solid red;
+}
+
+.textBar.error img {
+    filter: invert(100%) sepia(100%) saturate(338%) hue-rotate(204deg) brightness(119%) contrast(101%);
+}
+
+.textBar img {
+    filter: invert(13%) sepia(0%) saturate(411%) hue-rotate(243deg) brightness(95%) contrast(80%);
+}
+
+.textBar.bordered,
+.textArea.bordered {
+    border: 5px solid rgba(255, 197, 17, 1);
+}
+
+.textBar.bordered .button {
+    margin: -1px;
+}
+
+.navButtons #profileButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    user-select: none;
+}
+
+.navButtons #profileButton .username {
+    margin-right: 10px;
+}
+
+.menu .propic {
+    border: 4px solid whitesmoke;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: #eee;
+    background-color: #333;
+    font-weight: bold;
+}
+
+.menu h3,
+.menu h2 {
+    margin: 0;
+}
+
+.menu .logo img {
+    margin: 5%;
+    width: 50%;
+}
+
+.menu .username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navButtons #profileButton .propic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: #eee;
+    background-color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#navLogo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navLogo h2 {
+    margin-right: 10px;
+    white-space: nowrap
+}
+
+.navButtons a {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.plans {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans .card {
+    align-items: center;
+    background-color: rgba(251, 139, 36, 0.3);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    position: relative
+}
+
+#projects .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20%
+}
+
+#projects .main div,
+#projects .main a {
+    flex: 40%;
+    flex-grow: 1;
+    padding: 20px 0;
+}
+
+#projects .card {
+    width: 20vw;
+    height: 100px;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0px 20px 30px rgb(100 131 177 / 20%);
+}
+
+#projects .main h2 {
+    margin-bottom: 1vh;
+    margin-top: 4vh
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.purpleSection .cards {
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: inset 35px 35px 70px #382b6c, inset -35px -35px 70px #4c3b92;
+}
+
+.cards h1,
+.cards h2 {
+    margin: 0;
+}
+
+.cards p {
+    margin-top: 5%;
+    text-align: left;
+    padding: 3%;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oneLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.progressBarLine p,
+.progressBarLine span {
+    width: 20%;
+}
+
+.oneLine .title {
+    margin: 0;
+    margin-left: 5vw;
+}
+
+.oneLine .main {
+    margin-right: 5vw;
+}
+
+.blackSection {
+    background-color: #1f1f1f;
+    color: #fff
+}
+
+.purpleSection {
+    background-color: #42337F;
+    color: #fff
+}
+
+.card {
+    border-radius: 2em;
+    background-color: white;
+    color: black;
+    padding: 2%;
+}
+
+.card p {
+    padding: 2%;
+}
+
+.card p,
+.card b {
+    color: black;
+}
+
+.card .oneLine {
+    width: 80%;
+}
+
+.card .oneLine .submit {
+    margin: 2%;
+}
+
+.card .mainImage {
+    height: 100px;
+}
+
+.card .mainImage img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.cards .card.sbc {
+    height: 30%;
+}
+
+.cards .card.sbc .mainImage {
+    height: 30vh;
+    max-height: none;
+    max-width: 100%;
+}
+
+.card a img {
+    height: 100%;
+}
+
+#projects .card img {
+    margin: auto;
+    max-height: 70%;
+    max-width: 70%
+}
+
+.main {
+    padding: 2% 0
+}
+
+.plan {
+    border-radius: 2rem;
+    box-shadow: 10px 10px 59px -26px rgba(0, 0, 0, 0.75);
+    height: 50vh;
+    overflow: hidden;
+    width: 20vw;
+    background: linear-gradient(145deg, rgba(66, 51, 127, 1) 0%, rgba(204, 43, 94, 1) 100%);
+    margin: 2%;
+}
+
+.plan .center {
+    flex-direction: column;
+    height: 60%;
+    background-color: white
+}
+
+.plan .top,
+.plan .bottom {
+    height: 20%
+}
+
+.card .bottom {
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    height: 50px;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+.plan div {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.plan h1,
+.plan a {
+    color: #FFF;
+    margin: 0
+}
+
+.plan h2,
+.plan p {
+    color: black;
+    margin: 0
+}
+
+.plan.highlined {
+    height: 60vh;
+    background: linear-gradient(145deg, #FF7D11 0%, #FFC511 100%);
+}
+
+.large {
+    min-height: 80vh;
+}
+
+.textBar,
+.textArea {
+    align-items: stretch;
+    background-color: #FFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.3s ease;
+}
+
+.textBar .icon {
+    align-items: center;
+    background-color: rgba(255, 197, 17, 1);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    width: 70px;
+    margin: -1px;
+}
+
+.textBar .button {
+    cursor: pointer;
+    align-items: center;
+    background-color: rgba(255, 197, 17, 1);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    padding: .5% 5% .1%;
+    margin: 0;
+    border: 0;
+}
+
+.textBar img {
+    height: 100%;
+}
+
+.textBar .input,
+.textArea .input {
+    width: 100%
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, serif;
+    font-size: 1.5em;
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    width: 30px !important;
+    height: 30px !important;
+    appearance: none;
+    box-shadow: none;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    background: white;
+    border: 5px solid rgba(255, 197, 17, 1);
+    border-radius: 30px;
+    margin: 0 2%;
+}
+
+input[type='checkbox']:checked {
+    background: rgba(255, 197, 17, 1);
+}
+
+input[type='checkbox']:checked:after {
+    content: '✔';
+    color: white;
+}
+
+.login {
+    width: 50%;
+}
+
+.allow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.textBar.rightCorner input {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.textBar.leftCorner input {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.textBar input::placeholder {
+    color: #000;
+    opacity: .3
+}
+
+.textBar input:focus {
+    border: 0;
+    color: #1d124a;
+    outline: 0
+}
+
+.title {
+    margin: 5vh 5vw;
+    flex-direction: column;
+}
+
+.whiteSection .title h1 {
+    background-image: linear-gradient(145deg, rgba(66, 51, 127, 1) 0%, rgba(204, 43, 94, 1) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.blackSection .title h1 {
+    background-image: linear-gradient(145deg, #FF7D11 0%, #FFC511 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.title h1 {
+    font-size: 4rem !important;
+    text-align: left;
+    font-size: 3vw;
+    margin: 0 14%;
+}
+
+.title h1,
+p {
+    margin: 0;
+}
+
+.whiteSection {
+    background-color: #f5f6f7;
+    color: #000;
+}
+
+.lightPurpleSection {
+    background-color: #d5e0f3;
+    color: #000;
+}
+
+.hidden {
+    display: none !important;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a.highlined {
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 10px 15px
+}
+
+a.highlined:hover {
+    background-color: #fff;
+    color: #1d124a
+}
+
+body {
+    color: black;
+    font-family: Ubuntu, serif;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(145deg, rgba(66, 51, 127, 1) 0%, rgba(204, 43, 94, 1) 100%);
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #FFF;
+    padding: 75px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer img {
+    filter: invert(100%) sepia(48%) saturate(1956%) hue-rotate(189deg) brightness(124%) contrast(100%);
+}
+
+footer a {
+    margin: 0 2vw
+}
+
+header {
+    align-items: flex-end;
+    background-attachment: fixed;
+    background: url(img/IoT.gif), url(img/circles.png), linear-gradient(145deg, rgba(66, 51, 127, 1) 0%, rgba(204, 43, 94, 1) 100%);
+    background-position: -30vw center, -30vw center, 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 10%;
+    position: relative
+}
+
+header.small {
+    background: transparent;
+    min-height: auto;
+    padding: 0;
+    flex-direction: row;
+}
+
+header.small.profile {
+    margin-bottom: 10px;
+}
+
+header.small nav {
+    width: 100%;
+    position: relative;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    margin: 0 2vw;
+    padding: 1%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section {
+    padding: 2%;
+    text-align: center
+}
+
+.card .leftDiv {
+    width: 40%;
+}
+
+.card .leftDiv h2 {
+    padding: 2%;
+    text-align: left;
+    margin: 0;
+}
+
+.card .rightDiv {
+    height: 100%;
+    flex-direction: column;
+}
+
+.card .rightDiv .mainImage {
+    height: 80%;
+    width: auto;
+    max-height: none;
+    max-width: none;
+}
+
+.card .item.status {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 2.5% 3%;
+}
+
+.card .item.status.statusGreen {
+    color: #96c824;
+}
+
+.card .item.status.statusRed {
+    color: #f44336;
+}
+
+.card .item.leftTop {
+    top: 0;
+    left: 0;
+}
+
+.card .item.rightTop {
+    top: 0;
+    right: 0;
+}
+
+.card .item.rightBottom {
+    bottom: 0;
+    right: 0;
+}
+
+.card .item {
+    position: absolute;
+    margin: 4%;
+    height: 20px;
+}
+
+.card .addButton {
+    background-color: #96c824;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.card .subButton {
+    margin: 2% 3%;
+    top: -10px;
+    position: absolute;
+    right: -10px;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+form .submit {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 5%;
+    border-radius: 100px;
+    padding: 10px 15px;
+    background-color: rgba(255, 197, 17, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#github {
+    background-color: black;
+}
+
+#github p {
+    color: white;
+}
+
+#github img {
+    height: 70%;
+    width: auto;
+    filter: invert(100%) sepia(48%) saturate(1956%) hue-rotate(189deg) brightness(124%) contrast(100%);
+}
+
+#github img.loading {
+    filter: none;
+}
+
+.showButton {
+    margin-top: 5%;
+    border-radius: 100px;
+    padding: 10px 15px;
+    background-color: #42337F;
+    color: white;
+}
+
+.projectButton {
+    padding: 2%;
+    margin: 2%;
+    margin-top: 5%;
+    border-radius: 100px;
+    background-color: #42337F;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 300ms;
+}
+
+.projectButton.remove {
+    background-color: #f44336;
+}
+
+.showButton b {
+    color: white;
+}
+
+@media (max-width:1366px) {
+    header {
+        background-attachment: scroll
+    }
+}
+
+@media (max-width:900px) {
+    #init {
+        text-align: center;
+        width: 100%
+    }
+    #init h1 {
+        font-size: 10vw
+    }
+    .plans {
+        align-items: stretch;
+        flex-direction: column;
+        width: 60%;
+    }
+    .plans div {
+        width: auto
+    }
+    #navLogo {
+        min-width: auto;
+        margin: 5%;
+    }
+    #navLogo h2 {
+        display: none;
+    }
+    .navButtons #profileButton {
+        background-color: transparent;
+        box-shadow: none
+    }
+    .navButtons #profileButton .username {
+        display: none;
+    }
+    .navButtons #profileButton .propic {
+        border: 4px solid white;
+        margin: 0;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .plan {
+        margin-bottom: 3vh
+    }
+    .plan.highlined {
+        height: 50vh
+    }
+    header {
+        align-items: center;
+        background-position: center
+    }
+    header.small::before {
+        background-color: transparent;
+    }
+    header::before {
+        background-color: rgba(0, 0, 0, .3);
+        bottom: 0;
+        content: '';
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+    .stepsBar {
+        margin: 5% 0px;
+    }
+    .oneLine {
+        flex-direction: column;
+    }
+    .oneLine .title {
+        margin: 5vh 5vw;
+    }
+    .oneLine .main {
+        margin: 0;
+    }
+}
+
+.dropZone {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #b3b3b3;
+    border: 4px dashed rgba(255, 197, 17, 1);
+    background-color: white;
+    border-radius: 30px;
+}
+
+.dropZoneOver {
+    border-style: solid;
+}
+
+.dropZoneInput {
+    display: none;
+}
+
+.dropZoneThumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #333;
+    background-size: cover;
+    position: relative;
+}
+
+header form span,
+#Profile span,
+#New-project span#nameProjectError {
+    opacity: 0;
+    font-size: 11px;
+    margin: 2%;
+    transition: opacity 0.3s ease;
+}
+
+.dropZonePrompt {
+    opacity: 1 !important;
+    font-size: inherit !important;
+}
+
+header form span.errorSpan,
+#Profile span.errorSpan,
+#New-project span#nameProjectError.errorSpan {
+    opacity: 1;
+    font-size: 11px;
+    color: #fa1c2c;
+}
+
+#switch p {
+    padding: 1%;
+}
+
+#notify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    padding-left: 10vw;
+    background-position: 10vw center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    transition: all 300ms;
+}
+
+#notify.search {
+    background-image: url(/hw1/img/man/search.png);
+}
+
+#notify.error {
+    background-image: url(/hw1/img/man/error.png);
+}
+
+#notify.empty {
+    background-image: url(/hw1/img/man/muscle.png);
+}
+
+#notify.hero {
+    background-image: url(/hw1/img/man/hero.png);
+}
+
+#notify.hero1 {
+    background-image: url(/hw1/img/man/hero1.png);
+}
+
+#notify p {
+    padding-bottom: 2%;
+}
+
+.cards .card .selectable {
+    color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.2em;
+    transition: all 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards .card .selectable:hover {
+    box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+}
+
+.cards {
+    padding: 0;
+    width: 100%;
+}
+
+.cards .card .os {
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards .card.noImage {
+    height: 30vh;
+}
+
+.cards .card {
+    box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+    background-color: #f5f6f7;
+    padding: 10px;
+    width: 30.3%;
+    height: 30vh;
+    margin: 0.5%;
+    position: relative;
+    flex-direction: column;
+    color: black;
+    justify-content: flex-start;
+}
+
+#Dashboard .card div {
+    margin: 2%;
+}
+
+#Dashboard .card {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 47.2%;
+    height: 30vh;
+}
+
+#selected .cards {
+    width: 98%;
+}
+
+#selected .card {
+    box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+    width: 28.3%;
+    color: black;
+    padding: 2%;
+    height: 10vh;
+    margin: 0.5%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+#selected .nextButton {
+    z-index: 1;
+    background-color: #96c824;
+    color: white;
+    font-weight: bold;
+    line-height: 60px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+}
+
+#selected .nextButton img {
+    padding-left: 5px;
+}
+
+#contents .card .item.rightTop {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    object-position: 0 -4px;
+}
+
+#contents .card h2.description,
+#Deploy .card h2.description {
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+#contents .card p,
+#Deploy .card p {
+    margin: 0;
+    height: 10%;
+}
+
+#selected img {
+    height: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.stepsBar {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20px;
+    height: 100%;
+}
+
+.progressStep .stepCount {
+    background-color: #bbb;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: white;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 1000ms;
+}
+
+.progressStep.active {
+    cursor: pointer;
+}
+
+.progressStep.active .stepCount {
+    background-color: rgba(255, 197, 17, 1);
+}
+
+#Deploy>div {
+    width: 90%;
+}
+
+#Deploy .stepsBar {
+    width: 10%;
+}
+
+.progressStep {
+    display: flex;
+    cursor: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.progressStep.active.now .stepCount {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 2em;
+}
+
+.progressStep.active.now .stepDescription {
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+.progressStep .stepDescription {
+    opacity: 0.8;
+    font-weight: normal;
+    font-size: 1.17em;
+    margin: 5% 0;
+    transition: all 300ms;
+    color: black;
+}
+
+@media (max-width:900px) {
+    #selected {
+        flex-direction: column;
+    }
+    #notify {
+        background: none !important;
+        padding: 0;
+    }
+    .cards {
+        margin: 0;
+    }
+    #contents .card {
+        width: calc(100% - 40px) !important;
+        margin: 10px;
+        padding: 10px !important;
+    }
+    #selected .cards {
+        margin: 5% 0;
+        width: 95%;
+    }
+    .dashboard .menu>div {
+        flex-direction: row;
+    }
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dashboard .menu {
+        margin: 0;
+        width: 90%;
+        border-radius: 0;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+    .dashboard .container {
+        margin: 0;
+        margin-bottom: 2%;
+        width: 90%;
+        border-radius: 0;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+}
+
+.dashboard {
+    display: flex;
+    padding: 0;
+}
+
+.dashboard .textBar.last,
+.dashboard .textArea.last {
+    margin-bottom: 0;
+}
+
+.dashboard .textBar,
+.dashboard .textArea {
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#New-project .leftDiv {
+    width: 77.1%;
+}
+
+#profile.dashboard .menu {
+    justify-content: flex-start;
+}
+
+#profile.dashboard .container {
+    width: 80%;
+    justify-content: flex-start;
+}
+
+#profile.dashboard .container h1 {
+    margin: 1%;
+    text-align: start;
+    font-size: 3.5em;
+}
+
+.menu {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0px 20px 30px rgb(100 131 177 / 20%);
+    margin: 2%;
+    padding: 2%;
+    margin-right: 0;
+    width: 20%;
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div {
+    width: 100%;
+    min-height: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu .button {
+    transition: all 300ms;
+    height: 80px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu .button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% - 1.5px);
+    margin: 0 auto;
+    width: 70%;
+    height: 1.5px;
+    background: rgb(0, 0, 0, 0.05);
+}
+
+.menu .button.selected {
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.menu .button.selected:after {
+    background: transparent;
+}
+
+.menu .logo {
+    height: 150px;
+}
+
+.menu div a {
+    color: black;
+}
+
+.menu .dataProfile {
+    height: 160px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+#profile.dashboard .menu {
+    padding: 0;
+}
+
+.numDevices {
+    color: white;
+    display: flex;
+    width: 50px;
+    padding: 3%;
+    background-color: rgba(255, 197, 17, 1);
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+}
+
+.numDevices span {
+    font-weight: bold;
+    margin: 0;
+    font-size: 3em;
+}
+
+.allSpace {
+    width: 100%;
+    height: 100%;
+}
+
+#profile.dashboard {
+    min-height: 100vh;
+}
+
+#profile.dashboard .page {
+    width: 100%;
+}
+
+#profile .propic {
+    font-size: 2em;
+}
+
+#collaborations {
+    margin: 5% 0;
+    flex-direction: row;
+    transition: all 300ms;
+}
+
+#collaborations .propic {
+    height: 40px;
+    width: 40px;
+    margin: 0 -10px;
+}
+
+:root {
+    --primary-light: #39ddfa;
+    --primary: #00abdf;
+    --primary-dark: #008ada;
+    --white: #fff;
+    --greyLight-1: #ebf5fc;
+    --greyLight-2: #d5e0f3;
+    --greyLight-3: #c1d9f0;
+    --greyDark: #646b8c;
+}
+
+#New-project .submit {
+    right: 2%;
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+}
+
+#New-project>div {
+    flex-direction: column;
+}
+
+#New-project #github.submit.close {
+    padding: 10px;
+    width: 50px;
+    background-color: #f44336;
+}
+
+#New-project #github.submit.close img {
+    height: 50%;
+}
+
+#New-project #github.submit {
+    right: 2%;
+    top: 2.5em;
+    position: absolute;
+    height: 50px;
+    width: 15%;
+    margin-bottom: 5%;
+    border-radius: 100px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+textarea {
+    height: 20vh;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    padding: 10px 18px;
+    width: 99%;
+    font-family: Ubuntu, serif;
+}
+
+textarea::placeholder {
+    color: rgb(0, 0, 0, 0.3);
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.textArea .icon {
+    align-items: center;
+    background-color: rgba(255, 197, 17, 1);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    width: 70px;
+    margin: -1px;
+}
+
+.container {
+    position: relative;
+    box-shadow: 0px 20px 30px rgb(100 131 177 / 20%);
+    width: 67%;
+    display: flex;
+    align-items: center;
+    background: #f5f6f7;
+    margin: 2%;
+    margin-left: 0;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.container p {
+    margin-bottom: 1%;
+}
+
+#statistics {
+    width: 100%;
+    flex-direction: column;
+}
+
+.container .lists {
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#statistics>div {
+    width: 80%;
+    margin: 2%;
+}
+
+.progressBar {
+    width: 80%;
+    margin: auto;
+}
+
+.progressBar .background {
+    height: 16px;
+    background-color: var(--back-color);
+    border-radius: 10px;
+    border: 4px solid #e6e6e6;
+    box-shadow: inset 3px 3px 7px rgb(136 165 191 / 48%), inset -3px -3px 7px whitesmoke;
+}
+
+.progressBar .line {
+    height: 16px;
+    background-color: rgba(255, 197, 17, 1);
+    margin-top: -20px;
+    margin-left: 4px;
+    border-radius: 8px;
+    opacity: 1;
+    width: calc(100% - 8px);
+}
+
+@keyframes sliding {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: calc(100% - 8px);
+    }
+}
+
+.navButtons #profileButton .dropdown {
+    position: absolute;
+    top: 4.2rem;
+    opacity: 0;
+    display: none;
+    padding: 2%;
+    background-color: white;
+    z-index: -999;
+    border-radius: 2em;
+    width: 100%;
+    box-shadow: 0px 20px 30px rgb(100 131 177 / 20%);
+}
+
+.dropdown .option {
+    border-radius: 0.4rem;
+    margin: 5%;
+}
+
+.dropdown .option a {
+    padding: 10%;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#logout,
+#logout a {
+    color: red;
+    font-weight: bold;
+}
+
+.dropdown .option:hover {
+    background-color: #e8f0fc;
+}
+
+.navButtons #profileButton.active .dropdown {
+    opacity: 1;
+    display: block;
+    animation: showDropdownMenu 0.4s cubic-bezier(0.28, 0.25, 0.36, 1.28);
+}
+
+@keyframes showDropdownMenu {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
